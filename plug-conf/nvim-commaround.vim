@@ -1,1 +1,1 @@
-vmap i <Plug>ToggleCommaround
+vmap c <Plug>ToggleCommaround
