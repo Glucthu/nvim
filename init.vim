@@ -5,3 +5,6 @@ source ~/.config/nvim/keys.vim
 for i in split(glob('~/.config/nvim/plug-conf/*.vim'), '\n')
     exe 'source' i
 endfor
+
+lua require ('_colorizer')
+lua require ('_neoscroll')
